@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Globe, ClipboardList } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -52,8 +52,9 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="text-primary">F</span>
-            <span className="text-foreground">reddy</span>
+            <span className="text-primary">
+              <ClipboardList className="inline-block h-6 w-6 mr-1" />
+            </span>
           </motion.a>
 
           {/* Desktop Navigation */}
