@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "skills": "Skills",
+    "gallery": "Galeria",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "title": "Desenvolvedor Full Stack",
+    "description": "Transformo ideias em experiências digitais únicas. Especializado em criar aplicações web e mobile modernas, com foco em performance, usabilidade e design elegante.",
+    "cta": "Ver Projetos",
+    "contact": "Contactar"
+  },
+  "services": {
+    "title": "Como posso ajudar-te?",
+    "items": [
+      {
+        "title": "Desenvolvimento Web",
+        "description": "Criação de websites e aplicações web responsivas, modernas e otimizadas para performance usando as tecnologias mais recentes."
+      },
+      {
+        "title": "Desenvolvimento Mobile",
+        "description": "Apps nativos e híbridos para iOS e Android com interfaces intuitivas e experiências de utilizador excepcionais."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Design de interfaces elegantes e funcionais, focadas na experiência do utilizador e na identidade visual da marca."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "viewProject": "Ver Projeto",
+    "viewCode": "Ver Código",
+    "items": [
+      {
+        "title": "Sistema de gestão simples",
+        "description": "Plataforma simples de gestão de vendasco painel de admin, gestão de produtos e funcionários.",
+        "github": "https://github.com/freddymenezess/sistema-de-vendas.git",
+        "link": "https://mamevcosmetics.netlify.app/",
+        "cover": "/public/sistema-de-vendas.png",
+        "tags": ["React", "Firebase"]
+      },
+      {
+        "title": "Quiz Interativo",
+        "description": "Aplicação web de quiz com perguntas dinâmicas, feedback instantâneo para os utilizadores.",
+        "github": "https://github.com/freddymenezess/interactive-quiz.git",
+        "link": "https://interactive-quiz-nu-ten.vercel.app/",
+        "cover": "/public/interactive-quiz.png",
+        "tags": ["React", "TypeScript", "TailwindCSS", "Express", "Prisma", "PostgreSQL"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "As Minhas Skills",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Ferramentas"
+    }
+  },
+  "gallery": {
+    "title": "Galeria",
+    "subtitle": "Alguns momentos do meu dia-a-dia"
+  },
+  "contact": {
+    "title": "Vamos Conversar?",
+    "subtitle": "Tens um projeto em mente? Envia-me uma mensagem!",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem",
+      "namePlaceholder": "O teu nome",
+      "emailPlaceholder": "O teu email",
+      "messagePlaceholder": "Escreve a tua mensagem aqui..."
+    },
+    "social": {
+      "title": "Ou encontra-me em"
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Feito com"
+  }
+}

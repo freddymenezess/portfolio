@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "skills": "Skills",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Full Stack Developer",
+    "description": "I transform ideas into unique digital experiences. Specialized in creating modern web and mobile applications, with a focus on performance, usability, and elegant design.",
+    "cta": "View Projects",
+    "contact": "Contact Me"
+  },
+  "services": {
+    "title": "How can I help you?",
+    "items": [
+      {
+        "title": "Web Development",
+        "description": "Creating responsive, modern websites and web applications optimized for performance using the latest technologies."
+      },
+      {
+        "title": "Mobile Development",
+        "description": "Native and hybrid apps for iOS and Android with intuitive interfaces and exceptional user experiences."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Designing elegant and functional interfaces, focused on user experience and brand visual identity."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": [
+      {
+        "title": "Simple Sales Management System",
+        "description": "Simple sales management platform with admin panel, product and employee management.",
+        "github": "https://github.com/freddymenezess/sistema-de-vendas.git",
+        "link": "https://mamevcosmetics.netlify.app/",
+        "cover": "/public/sistema-de-vendas.png",
+        "tags": ["React", "Firebase"]
+      },
+      {
+        "title": "Interactive Quiz",
+        "description": "Web quiz application with dynamic questions and instant feedback for users.",
+        "github": "https://github.com/freddymenezess/interactive-quiz.git",
+        "link": "https://interactive-quiz-nu-ten.vercel.app/",
+        "cover": "/public/interactive-quiz.png",
+        "tags": [
+          "React",
+          "TypeScript",
+          "TailwindCSS",
+          "Express",
+          "Prisma",
+          "PostgreSQL"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "My Skills",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Some moments from my daily life"
+  },
+  "contact": {
+    "title": "Let's Talk?",
+    "subtitle": "Have a project in mind? Send me a message!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Write your message here..."
+    },
+    "social": {
+      "title": "Or find me on"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  }
+}
