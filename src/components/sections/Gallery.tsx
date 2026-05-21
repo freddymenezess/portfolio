@@ -5,12 +5,27 @@ import { useLanguage } from '@/context/LanguageContext'
 import SectionTitle from '@/components/common/SectionTitle'
 
 const galleryImages = [
-  { id: 1, title: 'Studying Session', category: 'school', src: '/public/school.jpg' },
-  { id: 2, title: 'Studying Session', category: 'school', src: '/public/school2.jpg' },
-  { id: 3, title: 'Studying Session', category: 'school', src: '/public/school3.jpg' },
-  { id: 4, title: 'Home Office', category: 'work', src: '/public/home.jpg' },
-  { id: 5, title: 'Home Office', category: 'work', src: '/public/home2.jpg' }
-]
+  {
+    id: 1,
+    title: "Studying Session",
+    category: "school",
+    src: "school.jpg",
+  },
+  {
+    id: 2,
+    title: "Studying Session",
+    category: "school",
+    src: "school2.jpg",
+  },
+  {
+    id: 3,
+    title: "Studying Session",
+    category: "school",
+    src: "school3.jpg",
+  },
+  { id: 4, title: "Home Office", category: "work", src: "home.jpg" },
+  { id: 5, title: "Home Office", category: "work", src: "home2.jpg" },
+];
 
 export default function Gallery() {
   const { t } = useLanguage()

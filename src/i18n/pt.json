@@ -41,7 +41,7 @@
         "description": "Plataforma simples de gestão de vendasco painel de admin, gestão de produtos e funcionários.",
         "github": "https://github.com/freddymenezess/sistema-de-vendas.git",
         "link": "https://mamevcosmetics.netlify.app/",
-        "cover": "/public/sistema-de-vendas.png",
+        "cover": "sistema-de-vendas.png",
         "tags": ["React", "Firebase"]
       },
       {
@@ -49,7 +49,7 @@
         "description": "Aplicação web de quiz com perguntas dinâmicas, feedback instantâneo para os utilizadores.",
         "github": "https://github.com/freddymenezess/interactive-quiz.git",
         "link": "https://interactive-quiz-nu-ten.vercel.app/",
-        "cover": "/public/interactive-quiz.png",
+        "cover": "interactive-quiz.png",
         "tags": ["React", "TypeScript", "TailwindCSS", "Express", "Prisma", "PostgreSQL"]
       }
     ]

@@ -41,7 +41,7 @@
         "description": "Simple sales management platform with admin panel, product and employee management.",
         "github": "https://github.com/freddymenezess/sistema-de-vendas.git",
         "link": "https://mamevcosmetics.netlify.app/",
-        "cover": "/public/sistema-de-vendas.png",
+        "cover": "sistema-de-vendas.png",
         "tags": ["React", "Firebase"]
       },
       {
@@ -49,7 +49,7 @@
         "description": "Web quiz application with dynamic questions and instant feedback for users.",
         "github": "https://github.com/freddymenezess/interactive-quiz.git",
         "link": "https://interactive-quiz-nu-ten.vercel.app/",
-        "cover": "/public/interactive-quiz.png",
+        "cover": "interactive-quiz.png",
         "tags": [
           "React",
           "TypeScript",
